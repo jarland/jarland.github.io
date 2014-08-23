@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 date: 2013-12-28 18:47:53.000000000 -06:00
+permalink: /about-me/
 categories: []
 tags: [about]
 status: publish
