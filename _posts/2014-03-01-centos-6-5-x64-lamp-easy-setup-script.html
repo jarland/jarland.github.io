@@ -1,0 +1,23 @@
+---
+layout: post
+title: CentOS 6.5 x64 LAMP Easy Setup Script
+date: 2014-03-01 02:11:43.000000000 -06:00
+categories:
+- Scripts
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _edit_last: '1'
+  _et_post_bg_color: '#ffffff'
+  _et_post_bg_layout: dark
+  _format_link_url: ''
+author: 
+---
+<p>In a previous blog post I outlined the steps that I follow to set up Apache, PHP, MySQL, mod_pagespeed, and Varnish on a CentOS 5.4 system. I have an updated setup for my CentOS 6.5 stack right now. This version includes all of the above with the exception of Varnish.</p>
+<p>Rather than give you a new guide, I've gone a step further. I have created a simple bash script which simply executes everything you need, including securing the MySQL installation. This is designed for CentOS 6.5 64-bit. This works with CentOS 6.5 x86_64 minimal KVM template by SolusVM.</p>
+<p>At the top there are several variables that are explained, but I will explain beforehand as well. You will need to edit these variables. These consist of the MySQL root password, the username and password of the user which your first site will run under, your e-mail address, and the domain (without www) that will be first configured for you. It is very important that you change these.</p>
+<p>Download this script at GitHub:<br />
+<a href="https://github.com/jarland/ServerScripts/blob/master/centos65stack.sh">https://github.com/jarland/ServerScripts/blob/master/centos65stack.sh</a></p>
