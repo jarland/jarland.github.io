@@ -9,17 +9,10 @@ status: publish
 type: post
 published: true
 meta:
-  _wpas_done_all: '1'
-  _edit_last: '1'
-  _et_post_bg_color: '#ffffff'
-  _et_post_bg_layout: dark
-  _format_link_url: ''
-author: 
+author: jarland
 ---
 <p>Sometimes OpenVZ is more than I want on a dedicated server. Sometimes I want a new kernel. LXC is container based "virtualization" that provides a native performance alongside the host operating system, much like OpenVZ does. Additionally, sometimes I want to separate the environment which houses my individual services but I don't necessarily need a bunch of IPs. I might have ZNC in one, a web server in another, nothing that particularly conflicts, I just prefer the service isolation. This is how I achieve the result that I desire.</p>
 <p><!--more--></p>
-<p>Here is a look at the web based administration panel that you will be working with.</p>
-<p><a href="http://jarland.me/wp-content/uploads/2013/12/screenshot01s.png"><img class="alignnone size-full wp-image-23" alt="screenshot01s" src="assets/screenshot01s.png" width="700" height="318" /></a></p>
 <p>On a fresh installation of Ubuntu 13.04, run the following command:</p>
 <blockquote><p>apt-get update &amp;&amp; apt-get -y upgrade &amp;&amp; apt-get -y install lxc</p></blockquote>
 <p>After this finishes, it's time to install LXC Web Panel.</p>
