@@ -1,0 +1,11 @@
+# Site settings
+title: jarland.me
+email: me@jarland.me
+description: Rantings of a SysAdmin
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jarland.me" # the base hostname & protocol for your site
+twitter_username: jarland
+github_username:  jarland
+
+# Build settings
+markdown: kramdown
